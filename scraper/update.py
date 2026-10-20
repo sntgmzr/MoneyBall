@@ -315,7 +315,7 @@ def poisson_probs(teams, home, away):
     league = sum(t["gf"] for t in teams) / max(1, sum(t["pj"] for t in teams))  # goles por equipo y partido
 
     def rate(gf, pj):
-        k = pj / (pj + 3.0)
+        k = pj / (pj + 6.0)
         return k * (gf / pj if pj else league) + (1 - k) * league
 
     att_h = rate(h["home"]["gf"], h["home"]["pj"]) / league
@@ -335,7 +335,9 @@ def poisson_probs(teams, home, away):
             else:
                 pa += p
     s = ph + pd + pa
-    return round(100 * ph / s, 1), round(100 * pd / s, 1), round(100 * pa / s, 1)
+    # mezcla con un reparto base de LaLiga para no exagerar con pocos partidos
+    ph, pd, pa = (0.75 * ph / s + 0.25 * 0.45, 0.75 * pd / s + 0.25 * 0.27, 0.75 * pa / s + 0.25 * 0.28)
+    return round(100 * ph, 1), round(100 * pd, 1), round(100 * pa, 1)
 
 
 # --------------------------------------------------------------- jornada y onces
@@ -386,6 +388,22 @@ def parse_jornada(market, ids):
                         "url": href if href.startswith("http") else BASE + href})
         if len(matches) >= 10:
             break
+    # partidos aplazados que se juegan antes de la jornada
+    first = min((m["date"] for m in matches if m["date"]), default=None)
+    now_s = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
+    for a in links:
+        href = a.get("href", "")
+        mm = re.search(r"/partidos/(\d+)-([a-z0-9-]+)", href)
+        tip = a.get("data-tooltip", "")
+        if not mm or mm.group(1) in seen or " - " not in tip:
+            continue
+        fecha = a.select_one(".fecha")
+        dt = parse_fecha(fecha.get_text(" ", strip=True) if fecha else "")
+        h, w = (team_abbr(x) for x in tip.split(" - ", 1))
+        if h and w and dt and first and now_s < dt < first:
+            seen.add(mm.group(1))
+            matches.append({"id": mm.group(1) + "-" + mm.group(2), "home": h, "away": w, "date": dt,
+                            "url": href if href.startswith("http") else BASE + href, "aplazado": True})
     log(f"jornada {jornada}: {len(matches)} partidos")
     if len(matches) < 5:
         raise RuntimeError("no encontré los partidos de la jornada")
@@ -393,6 +411,8 @@ def parse_jornada(market, ids):
     by_ffid = market
     lineups = []
     for mt in matches:
+        if mt.get("aplazado"):
+            continue
         try:
             sp2 = soup(get(mt["url"]))
         except Exception as e:  # noqa: BLE001
@@ -540,8 +560,8 @@ def main():
         jornada, matches, lineups = parse_jornada(market, ids); ok["jornada"] = True
         fixtures = []
         for mt in matches:
-            f = {"id": f"j{jornada}-{mt['home'].lower()}-{mt['away'].lower()}", "home": mt["home"],
-                 "away": mt["away"], "date": mt["date"]}
+            f = {"id": f"j{jornada}-{mt['home'].lower()}-{mt['away'].lower()}" + ("-aplazado" if mt.get("aplazado") else ""),
+                 "home": mt["home"], "away": mt["away"], "date": mt["date"]}
             pr = poisson_probs(teams, mt["home"], mt["away"]) if teams else None
             if pr:
                 f["pHome"], f["pDraw"], f["pAway"] = pr
