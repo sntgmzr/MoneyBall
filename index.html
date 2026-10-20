@@ -295,6 +295,7 @@ nav.tabs{background:var(--glass-bg-strong)}
 .seg{display:flex;gap:4px;padding:5px;border-radius:999px;width:max-content;max-width:100%;overflow-x:auto;scrollbar-width:none}
 .seg button{font:500 14px var(--f-body);background:none;border:0;color:var(--muted);padding:8px 14px;border-radius:999px;cursor:pointer;white-space:nowrap;min-height:38px;transition:background-color 200ms ease,color 200ms ease}
 .seg button[aria-selected="true"]{background:var(--accent);color:#000}
+.drawer .sheet{grid-auto-rows:max-content}.drawer .sheet .seg{overflow:visible;flex-shrink:0}
 .sub{display:grid;gap:14px}
 @media (prefers-reduced-motion:no-preference){.sub:not([hidden]){animation:subIn 260ms var(--ease-out)}}
 @keyframes subIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
