@@ -348,7 +348,7 @@ nav.tabs{background:var(--glass-bg-strong)}
 @media (hover:hover) and (pointer:fine){.lu-pitches:hover .mini-pitch{box-shadow:inset 0 0 0 2px rgba(255,255,255,.55),0 0 0 3px var(--accent)}}
 .lu-pitches:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .drawer.wide .sheet{width:min(720px,100%)}
-.big-pitch{position:relative;width:100%;aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:repeating-linear-gradient(180deg,#6AA6DA 0 10%,#629FD4 10% 20%);box-shadow:inset 0 0 0 3px rgba(255,255,255,.55),var(--shadow-md)}
+.big-pitch{position:relative;width:max(240px,min(684px,calc(100vw - 36px),calc((100dvh - 230px) * .8)));height:max(300px,min(855px,calc((100vw - 36px) * 1.25),calc(100dvh - 230px)));max-width:100%;justify-self:center;border-radius:20px;overflow:hidden;background:repeating-linear-gradient(180deg,#6AA6DA 0 10%,#629FD4 10% 20%);box-shadow:inset 0 0 0 3px rgba(255,255,255,.55),var(--shadow-md)}
 .big-pitch::before{content:"";position:absolute;left:26%;right:26%;bottom:0;height:13%;border:2px solid rgba(255,255,255,.65);border-bottom:0}
 .big-pitch::after{content:"";position:absolute;left:50%;top:-12%;width:30%;aspect-ratio:1;transform:translateX(-50%);border:2px solid rgba(255,255,255,.55);border-radius:50%}
 .bp{position:absolute;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:3px;background:none;border:0;padding:0;cursor:pointer;font:inherit;width:20%;z-index:1;transition:transform 120ms var(--ease-out)}
