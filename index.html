@@ -259,7 +259,8 @@ html{background:var(--bg)}
 .kv div,.xi-out,.report .out,.msg.bot,input,select,textarea{background:color-mix(in srgb,var(--surface) 55%,transparent)}
 nav.tabs{background:var(--glass-bg-strong)}
 /* top bar + hero title */
-.topbar{display:flex;justify-content:flex-start;padding-top:18px}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-top:18px}
+.theme-btn{font:500 13px var(--f-body);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:8px 14px;min-height:38px;cursor:pointer;white-space:nowrap;flex-shrink:0}
 .stamp{text-align:left;border-radius:999px;padding:8px 16px;font-size:12px}
 .stamp b{font-weight:600}
 .hero-title{display:grid;justify-items:center;text-align:center;padding:18px 0 6px}
@@ -367,7 +368,9 @@ nav.tabs{background:var(--glass-bg-strong)}
 <div class="wrap">
   <div class="topbar">
     <div class="stamp glass" id="stamp">Cargando datos…</div>
+    <button class="theme-btn glass" id="themeBtn" type="button" aria-label="Cambiar entre modo claro, oscuro o automático">◐ Auto</button>
   </div>
+  <script>(function(){var R=document.documentElement,orig=R.getAttribute("data-theme"),L={auto:"◐ Auto",light:"☀️ Claro",dark:"🌙 Oscuro"},N={auto:"light",light:"dark",dark:"auto"},t="auto";try{t=localStorage.getItem("mb-theme")||"auto"}catch(e){}if(!L[t])t="auto";function ap(){if(t==="auto"){if(orig)R.setAttribute("data-theme",orig);else R.removeAttribute("data-theme")}else R.setAttribute("data-theme",t);document.getElementById("themeBtn").textContent=L[t]}ap();document.getElementById("themeBtn").onclick=function(){t=N[t];try{localStorage.setItem("mb-theme",t)}catch(e){}ap()}})();</script>
   <header class="hero-title">
     <h1>MoneyBall</h1>
     <p class="season">2026/2027</p>
