@@ -1,2 +1,3 @@
 # MoneyBall
-Analista estilo Moneyball para LaLiga Fantasy: estadísticas, mercado, lesiones y minutos para decidir fichajes.
+
+Analista estilo Moneyball para LaLiga Fantasy 2026/27. Los datos se actualizan cada mañana.
