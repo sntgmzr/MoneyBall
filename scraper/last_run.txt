@@ -1,9 +1,9 @@
 mercado: 649 jugadores
 puntos: 598 jugadores
-bajas: 73 lesionados/dudas, 3 sancionados
+bajas: 72 lesionados/dudas, 4 sancionados
 jugadores: 240 principales, 409 extra
 clasificación: 20 equipos
 jornada 10: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-10-21T18:02:13Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-10-22T00:00:20Z secciones: bajas, clasificacion, jornada, noticias, mvps
