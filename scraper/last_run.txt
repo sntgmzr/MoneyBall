@@ -6,4 +6,4 @@ clasificación: 20 equipos
 jornada 10: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-10-22T23:59:21Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-10-23T06:03:28Z secciones: bajas, clasificacion, jornada, noticias, mvps
