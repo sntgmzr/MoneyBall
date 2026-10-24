@@ -4,6 +4,6 @@ bajas: 70 lesionados/dudas, 6 sancionados
 jugadores: 244 principales, 405 extra
 clasificación: 20 equipos
 jornada 11: 15 partidos
-onces: 10 partidos, 6 con once
+onces: 10 partidos, 8 con once
 noticias: 24
-OK 2026-10-24T19:29:06Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-10-24T23:14:03Z secciones: bajas, clasificacion, jornada, noticias, mvps
