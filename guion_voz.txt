@@ -1,0 +1,47 @@
+Trading MoneyBall — guion de voz en off (español de México)
+Formato: escena · inicio → fin · texto. Voz a −14 LUFS; música −24 dB con ducking de −4 dB.
+
+E1 · Gancho
+  0:00.5 → 0:03.3  En cripto casi todos operan por corazonada.
+  0:03.5 → 0:05.6  Nosotros quisimos hacerlo distinto.
+
+E2 · La idea MoneyBall
+  0:06.6 → 0:09.6  Como un entrenador que arma su equipo con estadística,
+  0:09.8 → 0:13.2  el bot revisa veinte criptomonedas cada mañana.
+
+E3 · Señal 1: tendencia
+  0:14.6 → 0:18.2  Primero mira quién viene en racha y quién va en picada,
+  0:18.5 → 0:21.8  usando tres plazos para no depender de uno solo.
+
+E4 · Señal 2: funding
+  0:24.8 → 0:26.6  Luego busca cobrar la renta
+  0:26.8 → 0:30.2  que pagan quienes apuestan con dinero prestado.
+
+E5 · Cartera balanceada
+  0:32.5 → 0:35.3  Compra a los fuertes y apuesta contra los débiles.
+  0:35.5 → 0:37.8  Así no depende de que todo el mercado suba.
+  0:38.0 → 0:39.6  Y nunca usa apalancamiento.
+
+E6 · Evidencia: backtest
+  0:40.6 → 0:43.0  Lo probamos con 26 meses de historia,
+  0:43.2 → 0:46.2  y con comisiones al doble para no engañarnos.
+  0:47.0 → 0:50.4  Hubo meses malos, pero muchos más buenos.
+
+E7 · Prueba en vivo
+  0:52.6 → 0:55.0  Ahora corre en vivo con dinero simulado.
+  0:55.2 → 0:58.0  Hasta hoy, cero errores y dentro de lo esperado.
+  0:58.3 → 1:01.6  Dos días no prueban nada; por eso seguimos midiendo.
+
+E8 · La escalera
+  1:02.8 → 1:05.0  No pedimos que confíes en promesas.
+  1:05.4 → 1:07.4  Cada paso se gana con datos:
+  1:07.8 → 1:10.4  si no pasa la revisión, no avanza.
+
+E9 · Reglas de seguridad
+  1:14.8 → 1:18.2  Y si algo sale mal, hay reglas que lo apagan solo.
+  1:19.4 → 1:21.8  También tiene límites: con poco capital, algunas órdenes se saltan.
+
+E10 · Cierre
+  1:23.0 → 1:26.0  Trading MoneyBall: transparente, medido y paso a paso.
+  1:26.0 → 1:30.0  (Sin voz. Aviso legal en pantalla; solo música bajando.)
+

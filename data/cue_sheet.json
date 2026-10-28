@@ -1,0 +1,275 @@
+[
+  {
+    "frame": 0,
+    "sfx": "murmullo",
+    "vol": 0.063,
+    "evento": "E1 murmullo de mercado (se corta en seco al congelarse)",
+    "dur": 120
+  },
+  {
+    "frame": 126,
+    "sfx": "tuc_grave",
+    "vol": 0.079,
+    "evento": "E1 aparece el punto negro"
+  },
+  {
+    "frame": 180,
+    "sfx": "whoosh_largo",
+    "vol": 0.079,
+    "evento": "E1→E2 zoom-through"
+  },
+  {
+    "frame": 206,
+    "sfx": "clic_suave",
+    "vol": 0.05,
+    "evento": "E2 ficha 1 aterriza"
+  },
+  {
+    "frame": 224,
+    "sfx": "clic_suave",
+    "vol": 0.05,
+    "evento": "E2 ficha 10 aterriza"
+  },
+  {
+    "frame": 242,
+    "sfx": "clic_suave",
+    "vol": 0.05,
+    "evento": "E2 ficha 19 aterriza"
+  },
+  {
+    "frame": 290,
+    "sfx": "whoosh_corto",
+    "vol": 0.05,
+    "evento": "E2 las fichas se ordenan"
+  },
+  {
+    "frame": 420,
+    "sfx": "whoosh_corto",
+    "vol": 0.079,
+    "evento": "E2→E3 whip pan"
+  },
+  {
+    "frame": 470,
+    "sfx": "tono_asc",
+    "vol": 0.063,
+    "evento": "E3 las líneas se trenzan en la flecha"
+  },
+  {
+    "frame": 570,
+    "sfx": "swish",
+    "vol": 0.04,
+    "evento": "E3 ficha 1 cambia de columna"
+  },
+  {
+    "frame": 582,
+    "sfx": "swish",
+    "vol": 0.04,
+    "evento": "E3 ficha 4 cambia de columna"
+  },
+  {
+    "frame": 594,
+    "sfx": "swish",
+    "vol": 0.04,
+    "evento": "E3 ficha 7 cambia de columna"
+  },
+  {
+    "frame": 810,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 1 llega al bot"
+  },
+  {
+    "frame": 824,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 2 llega al bot"
+  },
+  {
+    "frame": 838,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 3 llega al bot"
+  },
+  {
+    "frame": 852,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 4 llega al bot"
+  },
+  {
+    "frame": 866,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 5 llega al bot"
+  },
+  {
+    "frame": 880,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 6 llega al bot"
+  },
+  {
+    "frame": 894,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 7 llega al bot"
+  },
+  {
+    "frame": 908,
+    "sfx": "gota",
+    "vol": 0.05,
+    "evento": "E4 pago 8 llega al bot"
+  },
+  {
+    "frame": 960,
+    "sfx": "whoosh_largo",
+    "vol": 0.04,
+    "evento": "E4→E5 alejamiento"
+  },
+  {
+    "frame": 1010,
+    "sfx": "clunk_madera",
+    "vol": 0.079,
+    "evento": "E5 la balanza se asienta"
+  },
+  {
+    "frame": 1070,
+    "sfx": "stamp_sordo",
+    "vol": 0.079,
+    "evento": "E5 sello 1x"
+  },
+  {
+    "frame": 1200,
+    "sfx": "whoosh_largo",
+    "vol": 0.079,
+    "evento": "E5→E6 zoom-through"
+  },
+  {
+    "frame": 1266,
+    "sfx": "tono_menor",
+    "vol": 0.063,
+    "evento": "E6 zoom al peor mes"
+  },
+  {
+    "frame": 1370,
+    "sfx": "riser_suave",
+    "vol": 0.05,
+    "evento": "E6 antes de revelar el Sharpe"
+  },
+  {
+    "frame": 1400,
+    "sfx": "tick_roll",
+    "vol": 0.04,
+    "evento": "E6 contador sube a 1.63",
+    "dur": 26
+  },
+  {
+    "frame": 1450,
+    "sfx": "tick_roll",
+    "vol": 0.04,
+    "evento": "E6 contador baja a 1.12",
+    "dur": 18
+  },
+  {
+    "frame": 1468,
+    "sfx": "pop_grave",
+    "vol": 0.079,
+    "evento": "E6 se fija 1.12"
+  },
+  {
+    "frame": 1620,
+    "sfx": "blip",
+    "vol": 0.05,
+    "evento": "E7 contador órdenes"
+  },
+  {
+    "frame": 1640,
+    "sfx": "tono_confirm",
+    "vol": 0.063,
+    "evento": "E7 0 rechazadas"
+  },
+  {
+    "frame": 1660,
+    "sfx": "blip",
+    "vol": 0.05,
+    "evento": "E7 contador resultado"
+  },
+  {
+    "frame": 1680,
+    "sfx": "blip",
+    "vol": 0.05,
+    "evento": "E7 contador comisiones"
+  },
+  {
+    "frame": 1892,
+    "sfx": "tono_c",
+    "vol": 0.063,
+    "evento": "E8 peldaño 1"
+  },
+  {
+    "frame": 1900,
+    "sfx": "clack_candado",
+    "vol": 0.079,
+    "evento": "E8 se abre el candado del peldaño 1"
+  },
+  {
+    "frame": 1962,
+    "sfx": "tono_d",
+    "vol": 0.063,
+    "evento": "E8 peldaño 2"
+  },
+  {
+    "frame": 2032,
+    "sfx": "tono_e",
+    "vol": 0.063,
+    "evento": "E8 peldaño 3"
+  },
+  {
+    "frame": 2102,
+    "sfx": "tono_g",
+    "vol": 0.063,
+    "evento": "E8 peldaño 4"
+  },
+  {
+    "frame": 2140,
+    "sfx": "riser_suave",
+    "vol": 0.05,
+    "evento": "E8 antes del alejamiento de la escalera"
+  },
+  {
+    "frame": 2220,
+    "sfx": "whoosh_corto",
+    "vol": 0.079,
+    "evento": "E8→E9 whip pan"
+  },
+  {
+    "frame": 2232,
+    "sfx": "tuc_grave",
+    "vol": 0.05,
+    "evento": "E9 escudo 1"
+  },
+  {
+    "frame": 2240,
+    "sfx": "tuc_grave",
+    "vol": 0.05,
+    "evento": "E9 escudo 3"
+  },
+  {
+    "frame": 2360,
+    "sfx": "clic_grave",
+    "vol": 0.079,
+    "evento": "E9 interruptor de apagado"
+  },
+  {
+    "frame": 2460,
+    "sfx": "whoosh_largo",
+    "vol": 0.04,
+    "evento": "E9→E10 alejamiento"
+  },
+  {
+    "frame": 2520,
+    "sfx": "acorde_final",
+    "vol": 0.063,
+    "evento": "E10 logo se materializa"
+  }
+]

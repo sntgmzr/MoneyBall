@@ -1,0 +1,50 @@
+{
+  "fecha_corte": "2026-10-28",
+  "proyecto": "Trading MoneyBall",
+  "estrategia": {
+    "nombre": "Tendencia + funding – robustez",
+    "version": "v7",
+    "versiones_probadas": 14,
+    "senales": ["ROC 10 días", "ROC 14 días", "ROC 20 días", "Funding"],
+    "universo": ["BTC", "ETH", "SOL", "BNB", "XRP", "DOGE", "ADA", "AVAX", "LINK", "SUI", "NEAR", "UNI", "ENA", "TAO", "WLD", "ONDO", "XLM", "DYDX", "kPEPE", "kBONK"],
+    "apalancamiento": "1x",
+    "rebalanceo": "Diario 5:59 a. m. (México)",
+    "exchange": "Hyperliquid",
+    "plataforma": "Keel"
+  },
+  "backtest": {
+    "inicio": "2024-08",
+    "fin": "2026-09",
+    "meses": 26,
+    "sharpe_costos_normales": 1.63,
+    "sharpe_costos_doble": 1.12,
+    "costo_normal_bps": 4.5,
+    "costo_doble_bps": 9,
+    "media_diaria_pct_costos_doble": 0.0594,
+    "desv_diaria_pct_costos_doble": 0.997,
+    "peor_mes": "2025-05",
+    "mensual": "PENDIENTE: el creador exporta la serie mes a mes (columna costos_x2_pct) desde la plataforma"
+  },
+  "paper": {
+    "inicio": "2026-10-26T20:02:55-06:00",
+    "capital_inicial_usd": 10000,
+    "valor_usd": 10064,
+    "resultado_pct": 0.64,
+    "ordenes": 49,
+    "rechazadas": 0,
+    "comisiones_usd": 13.21,
+    "carril": "dentro",
+    "curva": "PENDIENTE: el creador exporta paper_equity.json desde la plataforma"
+  },
+  "reglas": [
+    "Se apaga si pierde 5% en 3 días durante la prueba",
+    "Se apaga si cae 15% desde su máximo",
+    "Sin apalancamiento",
+    "Llaves sin permiso de retiro",
+    "No tocar a mano",
+    "Frase semilla solo en papel"
+  ],
+  "plan": ["D0 arranque", "D1–D3 práctica", "D3 análisis duro 6/6", "D4–D6 dinero real pequeño", "D7 evaluación"],
+  "minimo_orden_usd": 10,
+  "capital_recomendado_usd": 1300
+}
