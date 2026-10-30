@@ -6,4 +6,4 @@ clasificación: 20 equipos
 jornada 11: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-10-29T18:57:27Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-10-30T00:58:56Z secciones: bajas, clasificacion, jornada, noticias, mvps
