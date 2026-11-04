@@ -6,4 +6,4 @@ clasificación: 20 equipos
 jornada 12: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-11-04T01:20:06Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-11-04T07:30:48Z secciones: bajas, clasificacion, jornada, noticias, mvps
