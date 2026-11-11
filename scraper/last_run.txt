@@ -6,4 +6,4 @@ clasificación: 20 equipos
 jornada 13: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-11-11T01:14:04Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-11-11T07:46:08Z secciones: bajas, clasificacion, jornada, noticias, mvps
