@@ -1,9 +1,9 @@
 mercado: 665 jugadores
 puntos: 619 jugadores
-bajas: 74 lesionados/dudas, 1 sancionados
+bajas: 75 lesionados/dudas, 1 sancionados
 jugadores: 273 principales, 392 extra
 clasificación: 20 equipos
-jornada 13: 9 partidos
-onces: 9 partidos, 9 con once
+jornada 14: 19 partidos
+onces: 10 partidos, 2 con once
 noticias: 24
-OK 2026-11-21T02:13:28Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-11-21T08:18:18Z secciones: bajas, clasificacion, jornada, noticias, mvps
