@@ -6,4 +6,4 @@ clasificación: 20 equipos
 jornada 14: 10 partidos
 onces: 10 partidos, 10 con once
 noticias: 24
-OK 2026-11-26T22:20:52Z secciones: bajas, clasificacion, jornada, noticias, mvps
+OK 2026-11-27T09:42:04Z secciones: bajas, clasificacion, jornada, noticias, mvps
